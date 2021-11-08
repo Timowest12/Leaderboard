@@ -2,58 +2,40 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Leaderboard project
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+A leaderboard web app that uses the leaderboard API to save leaderboard ranking.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Webpack
+- NPM
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://timowest12.github.io/Leaderboard/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+If you want to use this repo as a template, you can do so; follow the instructions below.
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own.
+CD into the root folder and run npm i(NodeJs and NPM required)
+run npm start to launch project on local server
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Timowest12)
+- Twitter: [@twitterhandle](https://twitter.com/Timo61060367)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/timo-wester-6a0282a7/)
 
 ## 🤝 Contributing
 
@@ -64,12 +46,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
