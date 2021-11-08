@@ -1,2 +1,4 @@
-export default function printMe() {
-}
+const print = () => {
+  alert('yooooo');
+};
+export default print;
