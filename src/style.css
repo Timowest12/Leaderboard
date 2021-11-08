@@ -23,6 +23,9 @@ body{
   border: 1px solid black;
   padding: 0;
 }
+h1{
+  margin-left:100px;
+}
 
 .scores > * {
   width: 100%;
@@ -32,11 +35,11 @@ body{
 }
 
 .scores > :nth-child(even) {
-  background-color: green;
+  background-color: rgb(21, 99, 21);
 }
 
 .scores > :nth-child(odd) {
-  background-color: gray;
+  background-color: rgb(90, 89, 89);
 }
 
 .refreshbuttonwrapper {
@@ -61,7 +64,19 @@ button{
 }
 li{
   padding:10px;
+  min-width: 300px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 120%;
+  text-shadow: 2px 2px 20px;
+  font-weight: bold;
 }
+.innerscore{
+  min-width: 30px;
+  display: inline-block;
+}
+
 @media only screen and (max-width: 900px) {
   .innercontainer {
     flex-direction: column-reverse;
