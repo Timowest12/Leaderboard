@@ -9,13 +9,12 @@ const useApi = () => {
       outputdiv.innerHTML = '';
       response.data.result.forEach((item) => {
         outputdiv.innerHTML
-          += `<li>name:${item.user} score:${item.score}</li>`;
+          += `<li><span class='leftscore'>name:${item.user}</span> <span class='rightscore'>score:<span class='innerscore'>${item.score}</span></span></li>`;
       });
     });
   };
 
   const adduser = () => {
-    console.log(userinp);
     axios// eslint-disable-line
       .post(baseurl + scoreurl, {
         user: userinp.value,

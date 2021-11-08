@@ -5,6 +5,7 @@
 > Leaderboard project
 
 ![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot_mobile.png)
 
 A leaderboard web app that uses the leaderboard API to save leaderboard ranking.
 

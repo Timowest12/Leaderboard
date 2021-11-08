@@ -1,3 +1,7 @@
+body {
+  font-family: 'Arima Madurai', sans-serif;
+}
+
 .hflex {
   display: flex;
   flex-direction: row;
@@ -10,29 +14,78 @@
   justify-content: space-evenly;
 }
 
+.innercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .scores {
   list-style-type: none;
   width: 100%;
   border: 1px solid black;
   padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin-left: 100px;
 }
 
 .scores > * {
   width: 100%;
-  padding: 0;
+  padding: 10px;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .scores > :nth-child(even) {
-  background-color: green;
+  background-color: rgb(21, 99, 21);
 }
 
 .scores > :nth-child(odd) {
-  background-color: gray;
+  background-color: rgb(90, 89, 89);
 }
 
 .refreshbuttonwrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+input {
+  padding: 15px;
+  border-radius: 0;
+  margin-bottom: 15px;
+  font-size: 120%;
+}
+
+button {
+  padding: 15px;
+}
+
+.scoreswrapper {
+  border: 3px solid black;
+}
+
+li {
+  padding: 10px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 120%;
+  text-shadow: 2px 2px 20px;
+  font-weight: bold;
+}
+
+.innerscore {
+  min-width: 30px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 900px) {
+  .innercontainer {
+    flex-direction: column-reverse;
+  }
 }
