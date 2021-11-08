@@ -1,3 +1,3 @@
 export default function print() {
-    alert('yooooo')
+  alert('yooooo');
 }
