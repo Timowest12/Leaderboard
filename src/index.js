@@ -3,6 +3,6 @@ import './style.css';
 
 const component = () => {
   useApi();
-}
+};
 
 document.body.appendChild(component());

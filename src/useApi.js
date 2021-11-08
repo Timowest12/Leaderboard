@@ -12,7 +12,7 @@ const useApi = () => {
           += `<li>name:${item.user} score:${item.score}</li>`;
       });
     });
-  }
+  };
 
   const adduser = () => {
     console.log(userinp);
@@ -23,15 +23,15 @@ const useApi = () => {
       })
       .then((response) => {
         console.log(response);
-        loaddata()
+        loaddata();
       })
       .catch((error) => {
         console.log(error);
       });
-  }
+  };
   document.querySelector('.submitscore').addEventListener('click', adduser);
   document.querySelector('.refreshbutton').addEventListener('click', loaddata);
 
   loaddata();
-}
+};
 export default useApi;
