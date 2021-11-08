@@ -1,2 +1,3 @@
-export default function printMe() {
+export default function print() {
+    alert('yooooo')
 }
