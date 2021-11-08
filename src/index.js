@@ -1,7 +1,7 @@
 import useApi from './useApi';
 import './style.css';
 
-function component() {
+const component = () => {
   useApi();
 }
 
