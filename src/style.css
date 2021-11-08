@@ -1,0 +1,38 @@
+.hflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.vflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.scores {
+  list-style-type: none;
+  width: 100%;
+  border: 1px solid black;
+  padding: 0;
+}
+
+.scores > * {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.scores > :nth-child(even) {
+  background-color: green;
+}
+
+.scores > :nth-child(odd) {
+  background-color: gray;
+}
+
+.refreshbuttonwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
