@@ -1,10 +1,10 @@
-export default function useApi() {
+const useApi = () => {
   const baseurl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
   const scoreurl = 'games/superawesomegame/scores/';
   const outputdiv = document.querySelector('.scores');
   const userinp = document.querySelector('.userinp');
   const scoreinp = document.querySelector('.scoreinp');
-  function loaddata() {
+  const loaddata = () => {
     axios.get(baseurl + scoreurl).then((response) => {// eslint-disable-line
       outputdiv.innerHTML = '';
       response.data.result.forEach((item) => {
@@ -14,7 +14,7 @@ export default function useApi() {
     });
   }
 
-  function adduser() {
+  const adduser = () => {
     console.log(userinp);
     axios// eslint-disable-line
       .post(baseurl + scoreurl, {
@@ -34,3 +34,4 @@ export default function useApi() {
 
   loaddata();
 }
+export default useApi;
