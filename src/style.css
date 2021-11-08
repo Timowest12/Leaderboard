@@ -1,6 +1,7 @@
-body{
+body {
   font-family: 'Arima Madurai', sans-serif;
 }
+
 .hflex {
   display: flex;
   flex-direction: row;
@@ -12,19 +13,23 @@ body{
   flex-direction: column;
   justify-content: space-evenly;
 }
-.innercontainer{
+
+.innercontainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .scores {
   list-style-type: none;
   width: 100%;
   border: 1px solid black;
   padding: 0;
+  margin: 0;
 }
-h1{
-  margin-left:100px;
+
+h1 {
+  margin-left: 100px;
 }
 
 .scores > * {
@@ -47,32 +52,34 @@ h1{
   flex-direction: column;
   justify-content: center;
 }
-input{
-  padding:15px;
+
+input {
+  padding: 15px;
   border-radius: 0;
   margin-bottom: 15px;
-  font-size:120%;
+  font-size: 120%;
 }
-button{
+
+button {
   padding: 15px;
 }
-.scores{
-  margin:0;
+
+.scoreswrapper {
+  border: 3px solid black;
 }
-.scoreswrapper{
-  border:3px solid black;
-}
-li{
-  padding:10px;
+
+li {
+  padding: 10px;
   min-width: 300px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   font-size: 120%;
   text-shadow: 2px 2px 20px;
   font-weight: bold;
 }
-.innerscore{
+
+.innerscore {
   min-width: 30px;
   display: inline-block;
 }

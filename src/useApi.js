@@ -15,7 +15,6 @@ const useApi = () => {
   };
 
   const adduser = () => {
-    console.log(userinp);
     axios// eslint-disable-line
       .post(baseurl + scoreurl, {
         user: userinp.value,
